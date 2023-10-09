@@ -11,7 +11,11 @@ const port= process.env.PORT || 5000
 dotenv.config()
 // MongoDb
 connectDB()
-app.use(cors())
+app.use(cors(
+    {
+        origin: ['https://stay-wave-website.vercel.app/']
+    }
+))
 app.use(express.json())
 app.use(morgan('dev'))
 
