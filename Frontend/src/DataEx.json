@@ -1,0 +1,1385 @@
+{
+  "url": "https://www.airbnb.com/rooms/17391059",
+  "name": "The Manor-Charming Villa Nishat Srinagar Kashmir",
+  "stars": 4.48,
+  "numberOfGuests": 2,
+  "address": "Srinagar, Jammu and Kashmir, India",
+  "roomType": "Private room in villa",
+  "location": {
+    "lat": 34.13802,
+    "lng": 74.88384
+  },
+  "reviews": [
+    {
+      "author": {
+        "firstName": "Deepshikha",
+        "hasProfilePic": false,
+        "id": "105228372",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/26b414ea-50aa-4c67-9cac-f30d9819b097.jpg?aki_policy=profile_x_medium",
+        "smartName": "Deepshikha",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/26b414ea-50aa-4c67-9cac-f30d9819b097.jpg?aki_policy=profile_small"
+      },
+      "comments": "The stay was quite comfortable and host is very accommodating. Would definitely recommend it.",
+      "createdAt": "2022-10-17T10:27:27Z",
+      "id": "739587059044467411",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": "Thank you, Do visit us again.",
+      "localizedDate": "October 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Ayushya",
+        "hasProfilePic": false,
+        "id": "422938659",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/c15330ea-6266-4441-a4bd-6b260eac9c79.jpg?aki_policy=profile_x_medium",
+        "smartName": "Ayushya",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/c15330ea-6266-4441-a4bd-6b260eac9c79.jpg?aki_policy=profile_small"
+      },
+      "comments": "It was great staying at The Manor, the place was neat and clean alongside with lovely rooms which we stayed attached. The view was breathtaking and I'd definitely recommend it to others.",
+      "createdAt": "2022-09-29T09:37:33Z",
+      "id": "726515976658480338",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": "Thank you Ayushya, looking forward to host U again.",
+      "localizedDate": "September 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Suryasarathi",
+        "hasProfilePic": false,
+        "id": "247379534",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/0149c682-58e0-4a46-86cb-5a8d214ed338.jpg?aki_policy=profile_x_medium",
+        "smartName": "Suryasarathi",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/0149c682-58e0-4a46-86cb-5a8d214ed338.jpg?aki_policy=profile_small"
+      },
+      "comments": "Beautiful place to stay in Srinagar calm and quiet. However, never make a mistake to think it's an Hotel.",
+      "createdAt": "2022-06-06T07:41:26Z",
+      "id": "643108324199638784",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "June 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Inderjeet",
+        "hasProfilePic": false,
+        "id": "36043706",
+        "pictureUrl": "https://a0.muscache.com/im/users/36043706/profile_pic/1434552458/original.jpg?aki_policy=profile_x_medium",
+        "smartName": "Inderjeet",
+        "thumbnailUrl": "https://a0.muscache.com/im/users/36043706/profile_pic/1434552458/original.jpg?aki_policy=profile_small"
+      },
+      "comments": "Dr Bashir and his wife were very warm and Welcoming! They were flexible even when our plans changed. Place is close to major attractions in Srinagar! Kashmir is known for it’s hospitality coz of people like Dr Bashir!",
+      "createdAt": "2022-05-29T07:44:29Z",
+      "id": "637311650479755889",
+      "collectionTag": null,
+      "rating": 4,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "May 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Vishal",
+        "hasProfilePic": false,
+        "id": "300698514",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/5b4cb6ce-aed6-4c55-8e44-a28288593ebb.jpg?aki_policy=profile_x_medium",
+        "smartName": "Vishal",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/5b4cb6ce-aed6-4c55-8e44-a28288593ebb.jpg?aki_policy=profile_small"
+      },
+      "comments": "The place is huge and very comfortable. It is located outaide the main city crowd uphill which provides a peaceful stay. Mr. & Mrs. Bashir are very nice and helping people. They have a nice set up which provides you a homely environment. Ample space for kids to play. Mr. Bashir stayed with us for all four days but never gave us the feeling of owner. However, the wifi was not available for our whole stay due to cable break. Mr. Bashir tried hard to mend it but it was not restored. I will definetly recommend this place to those who need a peaceful and comfortable saty.",
+      "createdAt": "2022-05-19T11:00:06Z",
+      "id": "630162352591177279",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": "Thanks for review. Sorry for WiFi which was disrupted by harsh winds. - the Jio WiFi ’ was restored next day only by the Jio company, who took their own time. Looking forward to host u again.",
+      "localizedDate": "May 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Chetan",
+        "hasProfilePic": false,
+        "id": "134075976",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/0d5650dc-0247-4cf4-b343-e26e2ece1939.jpg?aki_policy=profile_x_medium",
+        "smartName": "Chetan",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/0d5650dc-0247-4cf4-b343-e26e2ece1939.jpg?aki_policy=profile_small"
+      },
+      "comments": "Absolutely Stunning property with a perfect view. We had booked the property for my entire family of 5 for a relaxed vacation & our stay was exactly that. Dr. Bashir is an extremely humble host & ensured that we had a pleasant stay. He actively interacts with you & goes beyond to ensure your stay is comfortable & without glitches. The property is exactly the way you in see in the photos posted - perfect. It is located just couple of kms off Dal Lake which makes it perfect for people travelling for sight seeing. <br/>Ishber is one of the premium location & you can expect absolute peace of mind in terms of security & privacy. It has access to good restaurants nearby. The property is ideal if you are travelling with family - as it just feels home away from home.",
+      "createdAt": "2022-05-15T07:42:14Z",
+      "id": "627163662922380379",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": "Thank you . Looking forward to host you again .",
+      "localizedDate": "May 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Chirag",
+        "hasProfilePic": false,
+        "id": "95423735",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/d7d344bd-dbd8-450c-862a-71ac5cd46182.jpg?aki_policy=profile_x_medium",
+        "smartName": "Chirag",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/d7d344bd-dbd8-450c-862a-71ac5cd46182.jpg?aki_policy=profile_small"
+      },
+      "comments": "Property is good in terms of view,  construction and well maintained. All the required thing's you will find in bungalow. In Kitchen all the things available. it's 1 km meter far from main area. you will feel alone when you reach there. security system is good. Mr. Bashir and Mr. Parvesh is supportive. In Kashmir to much power supply problem. In night time almost 5 to 6 hrs power cut observed. UPS Power backup is there but it not that much sufficient to hot water gear and hot blanket. In morning time you will not get electricity. Just go outside without taking bath. <br/>Over all experience is nice.",
+      "createdAt": "2022-04-30T08:28:52Z",
+      "id": "616315499469624497",
+      "collectionTag": null,
+      "rating": 4,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "April 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Shilpa",
+        "hasProfilePic": false,
+        "id": "56610660",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/acf3d2e3-3c5f-4940-8ac3-a05430ac627c.jpg?aki_policy=profile_x_medium",
+        "smartName": "Shilpa",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/acf3d2e3-3c5f-4940-8ac3-a05430ac627c.jpg?aki_policy=profile_small"
+      },
+      "comments": "We had a very comfortable stay at Dr Bashir’s Manor. <br/>This place is centrally located , walking distance to Dal lake, and Nishat n Shalimar Garden, but for outsiders like us, coming from metro cities weather can make it little difficult to walk, basic provisions are available in the vicinity, you would buy fresh Kashmiri bread from the bakery near by.<br/>Dr. Bashir made us feel very much at home, he has a beautiful house which is done very tastefully. We enjoyed our stay !",
+      "createdAt": "2022-04-25T09:34:53Z",
+      "id": "612724841133746752",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "April 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Manish",
+        "hasProfilePic": false,
+        "id": "451623878",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/1831c347-cf71-4c75-84ca-06728ba87b23.jpg?aki_policy=profile_x_medium",
+        "smartName": "Manish",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/1831c347-cf71-4c75-84ca-06728ba87b23.jpg?aki_policy=profile_small"
+      },
+      "comments": "A wonderful place to stay with spacious rooms, comfortable living area, well equipped kitchen and lush green lawns, though it is situated a little away from the city/ Dal Lake area.",
+      "createdAt": "2022-04-17T09:47:57Z",
+      "id": "606933212953580712",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": "Thank you Mr Manish for your comments. See you again in future.",
+      "localizedDate": "April 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Snehal",
+        "hasProfilePic": false,
+        "id": "151194723",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e6bf052a-0ca8-45ce-a4aa-6bead66daef9.jpg?aki_policy=profile_x_medium",
+        "smartName": "Snehal",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e6bf052a-0ca8-45ce-a4aa-6bead66daef9.jpg?aki_policy=profile_small"
+      },
+      "comments": "Dr Bashir made us feel unwanted guests. He repeatedly gave us warning sort of instructions about use of  his bathroom shower  cabinet which was so insulting. Both Mrs n Mr  Bashir are not at all good hosts. Very negative vibes.",
+      "createdAt": "2022-04-14T08:10:27Z",
+      "id": "604709815620052501",
+      "collectionTag": null,
+      "rating": 2,
+      "recipient": {
+        "firstName": "Dr.Bashir",
+        "hasProfilePic": false,
+        "id": "81338354",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_x_medium",
+        "smartName": "Dr.Bashir",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+      },
+      "response": "This is utterly false and biased review. Snehal was only told once about the use of bathing cabinet and hand shower ( when she said it’s not working. One of her companion had ankle injury , she was referred to proper Orthopadician and inquired frequently about well being.It was clear that they are not used to home stay. She probably has a agenda, on which she is  are working. Utterly disappointing. Be careful about this lady and her group.",
+      "localizedDate": "April 2022",
+      "localizedReview": null
+    }
+  ],
+  "pricing": {
+    "rate": {
+      "amount": 3500,
+      "amountFormatted": "₹3,500",
+      "currency": "INR",
+      "isMicrosAccuracy": false
+    },
+    "rateType": "nightly"
+  },
+  "photos": [
+    {
+      "caption": "The Manor Victorian Mansion Ishber Nishat Srinagar",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/8a46ba6a-4af5-4fc1-bff0-bd386b76d7bd.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/8a46ba6a-4af5-4fc1-bff0-bd386b76d7bd.jpg?aki_policy=small"
+    },
+    {
+      "caption": "The Manor - side view ",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/629dfdd7-fad9-4d58-a4f1-fea36a24f854.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/629dfdd7-fad9-4d58-a4f1-fea36a24f854.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Summer Time - Sunny June",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/449fd161-0b20-4228-b569-67bf4242dbd5.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/449fd161-0b20-4228-b569-67bf4242dbd5.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/1d088bcb-ceca-4ec5-98a1-0b7704aa81a5.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/1d088bcb-ceca-4ec5-98a1-0b7704aa81a5.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Sprawling lawn in two levels in front of the Mansion ",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/bd14887a-b624-404e-a141-86d72e6bdc21.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/bd14887a-b624-404e-a141-86d72e6bdc21.jpg?aki_policy=small"
+    },
+    {
+      "caption": "King size Double Bedroom with attached Bathroom- green ambiance. Bedroom No 3 ",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/b119719d-ef23-4e27-81cb-81fdb802b7ef.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/b119719d-ef23-4e27-81cb-81fdb802b7ef.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/10654f83-a496-4b0e-98c9-7004790c3a7a.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/10654f83-a496-4b0e-98c9-7004790c3a7a.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/52f1d632-2185-4005-a5a0-2159907aaaaa.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/52f1d632-2185-4005-a5a0-2159907aaaaa.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Drawing room spacious with fire place.",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/8f1c8dab-8596-4187-b83c-45ddab9234da.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/8f1c8dab-8596-4187-b83c-45ddab9234da.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Drawing room with Fireplace ",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/cf833fe4-030d-4ab4-b6d0-cb2ace6d1069.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/cf833fe4-030d-4ab4-b6d0-cb2ace6d1069.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Pathways to the house.",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/6fcf4457-c2cb-431a-a299-61de7e19b507.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/6fcf4457-c2cb-431a-a299-61de7e19b507.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/14466d8a-617c-44db-9790-a567f1caff7c.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/14466d8a-617c-44db-9790-a567f1caff7c.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Flower Beds of main Garden ",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/e2752e31-fded-44db-ba71-aa17e99f98d3.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/e2752e31-fded-44db-ba71-aa17e99f98d3.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/ab638baa-9d30-423e-8507-cd6e5e50750d.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/ab638baa-9d30-423e-8507-cd6e5e50750d.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/be519054-563a-4f44-8f46-bb9cb2d2060f.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/be519054-563a-4f44-8f46-bb9cb2d2060f.jpg?aki_policy=small"
+    },
+    {
+      "caption": " Summer again-",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/09c14132-2d72-4516-9f98-0e070534116c.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/09c14132-2d72-4516-9f98-0e070534116c.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/f2b8bfd2-3b69-47b2-9098-84bbf8c7b757.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/f2b8bfd2-3b69-47b2-9098-84bbf8c7b757.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/87144213-c79d-431b-a7ed-df1295b050ad.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/87144213-c79d-431b-a7ed-df1295b050ad.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Spring Bloom ",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/c026f30f-2abb-460a-8e71-1ec80549bf7f.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/c026f30f-2abb-460a-8e71-1ec80549bf7f.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Garden in front, within compound,",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/d7223122-c119-41a1-8817-d4dcd4151735.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/d7223122-c119-41a1-8817-d4dcd4151735.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Fromt view of the mansion.",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/c036bf17-5f25-4feb-a886-9f7d66a17cf3.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/c036bf17-5f25-4feb-a886-9f7d66a17cf3.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/aa9d642c-6220-44a2-b613-ca8da7c87cae.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/aa9d642c-6220-44a2-b613-ca8da7c87cae.jpg?aki_policy=small"
+    },
+    {
+      "caption": "The Golden hue of Autumn - trees shed their golden buddies-leaves",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/2225e03b-73bb-44cc-982a-358cf005ed5e.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/2225e03b-73bb-44cc-982a-358cf005ed5e.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/2ef24a2b-1cdd-4679-8d8e-506150a71845.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/2ef24a2b-1cdd-4679-8d8e-506150a71845.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Panoramic view of Dal Lake. ",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/eebd4ab6-c6b7-45a4-945b-c0d237730889.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/eebd4ab6-c6b7-45a4-945b-c0d237730889.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/2482923e-06a7-442f-b12b-84e6d67e23eb.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/2482923e-06a7-442f-b12b-84e6d67e23eb.jpg?aki_policy=small"
+    },
+    {
+      "caption": "Dal lake - only 1 km away from property.",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/88b6c68d-97eb-46df-997a-e6862a8cbd11.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/88b6c68d-97eb-46df-997a-e6862a8cbd11.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/cd3a3b1c-cdff-4be7-b896-b4117a1e8423.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/cd3a3b1c-cdff-4be7-b896-b4117a1e8423.jpg?aki_policy=small"
+    },
+    {
+      "caption": "",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/9e04cea8-5d90-4e3d-85d0-1135ad3c56fd.jpg?aki_policy=large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/9e04cea8-5d90-4e3d-85d0-1135ad3c56fd.jpg?aki_policy=small"
+    }
+  ],
+  "primaryHost": {
+    "id": 81338354,
+    "firstName": "Dr.Bashir",
+    "isSuperHost": false,
+    "hasProfilePic": true,
+    "smartName": "Dr.Bashir",
+    "about": "A professional, ventured into hosting .Now I have  experience of more than 5 years .",
+    "memberSince": "Joined in July 2016",
+    "languages": [
+      "English",
+      "हिन्दी"
+    ],
+    "responseRate": "100%",
+    "responseTime": "within a few hours",
+    "hasInclusionBadge": false,
+    "badges": [
+      "34 Reviews",
+      "Identity verified"
+    ],
+    "hostUrl": "https://www.airbnb.com/users/show/81338354",
+    "pictureUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_large",
+    "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/User-81338354/original/0fae5edc-e375-4246-94f5-1b91cac41faf.jpeg?aki_policy=profile_small"
+  },
+  "additionalHosts": [
+    {
+      "id": 273047320,
+      "firstName": "Shahzaman",
+      "isSuperHost": false,
+      "hasProfilePic": true,
+      "smartName": "Shahzaman",
+      "about": "",
+      "memberSince": "Joined in July 2019",
+      "languages": [],
+      "hasInclusionBadge": false,
+      "badges": [],
+      "hostUrl": "https://www.airbnb.com/users/show/273047320",
+      "pictureUrl": "https://a0.muscache.com/im/pictures/user/1d7d7718-df3d-49a7-9612-5851c1abb2f6.jpg?aki_policy=profile_large",
+      "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/1d7d7718-df3d-49a7-9612-5851c1abb2f6.jpg?aki_policy=profile_small"
+    }
+  ],
+  "isHostedBySuperhost": false,
+  "isAvailable": true,
+  "listingAmenities": [
+    {
+      "description": "Available throughout the listing",
+      "id": 4,
+      "isPresent": true,
+      "name": "Wifi"
+    },
+    {
+      "description": "Space where guests can cook their own meals",
+      "id": 8,
+      "isPresent": true,
+      "name": "Kitchen"
+    },
+    {
+      "description": "",
+      "id": 5,
+      "isPresent": true,
+      "name": "Air conditioning"
+    },
+    {
+      "description": "",
+      "id": 25,
+      "isPresent": true,
+      "name": "Hot tub"
+    },
+    {
+      "description": "",
+      "id": 30,
+      "isPresent": true,
+      "name": "Heating"
+    },
+    {
+      "description": "",
+      "id": 1,
+      "isPresent": true,
+      "name": "TV"
+    },
+    {
+      "description": "",
+      "id": 2,
+      "isPresent": true,
+      "name": "Cable TV"
+    },
+    {
+      "description": "",
+      "id": 9,
+      "isPresent": true,
+      "name": "Free parking on premises"
+    },
+    {
+      "description": "",
+      "id": 15,
+      "isPresent": true,
+      "name": "Gym"
+    },
+    {
+      "description": "",
+      "id": 23,
+      "isPresent": true,
+      "name": "Free street parking"
+    },
+    {
+      "description": "",
+      "id": 27,
+      "isPresent": true,
+      "name": "Indoor fireplace"
+    },
+    {
+      "description": "",
+      "id": 33,
+      "isPresent": false,
+      "name": "Washer"
+    },
+    {
+      "description": "The host hasn't reported a smoke detector on the property.",
+      "id": 35,
+      "isPresent": false,
+      "name": "Smoke alarm"
+    },
+    {
+      "description": "The host hasn't reported a carbon monoxide detector on the property.",
+      "id": 36,
+      "isPresent": false,
+      "name": "Carbon monoxide alarm"
+    },
+    {
+      "description": "Towels, bed sheets, soap, and toilet paper",
+      "id": 40,
+      "isPresent": true,
+      "name": "Essentials"
+    },
+    {
+      "description": "",
+      "id": 41,
+      "isPresent": false,
+      "name": "Shampoo"
+    },
+    {
+      "description": "Private room can be locked for safety and privacy",
+      "id": 42,
+      "isPresent": true,
+      "name": "Lock on bedroom door"
+    },
+    {
+      "description": "",
+      "id": 44,
+      "isPresent": true,
+      "name": "Hangers"
+    },
+    {
+      "description": "",
+      "id": 45,
+      "isPresent": true,
+      "name": "Hair dryer"
+    },
+    {
+      "description": "",
+      "id": 46,
+      "isPresent": true,
+      "name": "Iron"
+    },
+    {
+      "description": "Guests have a desk or table that’s used just for working, along with a comfortable chair.",
+      "id": 47,
+      "isPresent": true,
+      "name": "Dedicated workspace"
+    },
+    {
+      "description": "Someone is available 24 hours a day to let guests in",
+      "id": 55,
+      "isPresent": true,
+      "name": "Building staff"
+    },
+    {
+      "description": "Separate street or building entrance",
+      "id": 57,
+      "isPresent": true,
+      "name": "Private entrance"
+    },
+    {
+      "description": "",
+      "id": 61,
+      "isPresent": true,
+      "name": "Bathtub"
+    },
+    {
+      "description": "",
+      "id": 64,
+      "isPresent": true,
+      "name": "High chair"
+    },
+    {
+      "description": "",
+      "id": 67,
+      "isPresent": true,
+      "name": "Window guards"
+    },
+    {
+      "description": "",
+      "id": 69,
+      "isPresent": true,
+      "name": "Fireplace guards"
+    },
+    {
+      "description": "",
+      "id": 71,
+      "isPresent": true,
+      "name": "Crib"
+    },
+    {
+      "description": "",
+      "id": 73,
+      "isPresent": true,
+      "name": "Room-darkening shades"
+    },
+    {
+      "description": "",
+      "id": 77,
+      "isPresent": true,
+      "name": "Hot water"
+    },
+    {
+      "description": "",
+      "id": 79,
+      "isPresent": true,
+      "name": "Body soap"
+    },
+    {
+      "description": "",
+      "id": 85,
+      "isPresent": true,
+      "name": "Bed linens"
+    },
+    {
+      "description": "",
+      "id": 86,
+      "isPresent": true,
+      "name": "Extra pillows and blankets"
+    },
+    {
+      "description": "",
+      "id": 91,
+      "isPresent": true,
+      "name": "Refrigerator"
+    },
+    {
+      "description": "Bowls, chopsticks, plates, cups, etc.",
+      "id": 93,
+      "isPresent": true,
+      "name": "Dishes and silverware"
+    },
+    {
+      "description": "Pots and pans, oil, salt and pepper",
+      "id": 94,
+      "isPresent": true,
+      "name": "Cooking basics"
+    },
+    {
+      "description": "",
+      "id": 95,
+      "isPresent": true,
+      "name": "Oven"
+    },
+    {
+      "description": "",
+      "id": 96,
+      "isPresent": true,
+      "name": "Stove"
+    },
+    {
+      "description": "",
+      "id": 99,
+      "isPresent": true,
+      "name": "BBQ grill"
+    },
+    {
+      "description": "",
+      "id": 100,
+      "isPresent": true,
+      "name": "Patio or balcony"
+    },
+    {
+      "description": "An open space on the property usually covered in grass",
+      "id": 101,
+      "isPresent": true,
+      "name": "Backyard"
+    },
+    {
+      "description": "For guests' convenience when they have early arrival or late departure",
+      "id": 103,
+      "isPresent": true,
+      "name": "Luggage dropoff allowed"
+    },
+    {
+      "description": "Allow stay for 28 days or more",
+      "id": 104,
+      "isPresent": true,
+      "name": "Long term stays allowed"
+    },
+    {
+      "description": "",
+      "id": 139,
+      "isPresent": true,
+      "name": "Ceiling fan"
+    },
+    {
+      "description": "",
+      "id": 146,
+      "isPresent": true,
+      "name": "Mini fridge"
+    },
+    {
+      "description": "",
+      "id": 167,
+      "isPresent": true,
+      "name": "Bidet"
+    },
+    {
+      "description": "",
+      "id": 179,
+      "isPresent": true,
+      "name": "Outdoor dining area"
+    },
+    {
+      "description": "",
+      "id": 185,
+      "isPresent": true,
+      "name": "Sound system"
+    },
+    {
+      "description": "",
+      "id": 236,
+      "isPresent": true,
+      "name": "Dining table"
+    },
+    {
+      "description": "",
+      "id": 632,
+      "isPresent": true,
+      "name": "Bread maker"
+    },
+    {
+      "description": "",
+      "id": 657,
+      "isPresent": true,
+      "name": "Conditioner"
+    },
+    {
+      "description": "",
+      "id": 665,
+      "isPresent": true,
+      "name": "Cleaning products"
+    },
+    {
+      "description": "",
+      "id": 671,
+      "isPresent": true,
+      "name": "Clothing storage"
+    }
+  ],
+  "rootAmenitySections": [
+    {
+      "id": "available_amenities",
+      "title": "Amenities",
+      "subtitle": "",
+      "amenityIds": [
+        4,
+        8,
+        5,
+        25
+      ]
+    },
+    {
+      "id": "unavailable_safety_amenities",
+      "title": "Amenities",
+      "subtitle": "The host hasn't reported smoke or carbon monoxide detectors on the property.",
+      "amenityIds": [
+        35,
+        36
+      ]
+    }
+  ],
+  "seeAllAmenitySections": [
+    {
+      "id": "pdp_m2_5_bathroom",
+      "title": "Bathroom",
+      "subtitle": "",
+      "amenityIds": [
+        45,
+        61,
+        77,
+        79,
+        167,
+        657,
+        665
+      ]
+    },
+    {
+      "id": "pdp_m2_5_bedroom_laundry",
+      "title": "Bedroom and laundry",
+      "subtitle": "",
+      "amenityIds": [
+        40,
+        44,
+        46,
+        73,
+        85,
+        86,
+        671
+      ]
+    },
+    {
+      "id": "pdp_m2_5_entertainment",
+      "title": "Entertainment",
+      "subtitle": "",
+      "amenityIds": [
+        1,
+        2,
+        185
+      ]
+    },
+    {
+      "id": "pdp_m2_5_family",
+      "title": "Family",
+      "subtitle": "",
+      "amenityIds": [
+        64,
+        67,
+        69,
+        71
+      ]
+    },
+    {
+      "id": "pdp_m2_5_heating_cooling",
+      "title": "Heating and cooling",
+      "subtitle": "",
+      "amenityIds": [
+        5,
+        30,
+        27,
+        139
+      ]
+    },
+    {
+      "id": "pdp_m2_5_home_safety",
+      "title": "Home safety",
+      "subtitle": "",
+      "amenityIds": [
+        42
+      ]
+    },
+    {
+      "id": "pdp_m2_5_internet_office",
+      "title": "Internet and office",
+      "subtitle": "",
+      "amenityIds": [
+        4,
+        47
+      ]
+    },
+    {
+      "id": "pdp_m2_5_kitchen_dining",
+      "title": "Kitchen and dining",
+      "subtitle": "",
+      "amenityIds": [
+        8,
+        91,
+        93,
+        94,
+        95,
+        96,
+        146,
+        236,
+        632
+      ]
+    },
+    {
+      "id": "pdp_m2_5_location",
+      "title": "Location features",
+      "subtitle": "",
+      "amenityIds": [
+        57
+      ]
+    },
+    {
+      "id": "pdp_m2_5_outdoor",
+      "title": "Outdoor",
+      "subtitle": "",
+      "amenityIds": [
+        99,
+        100,
+        101,
+        179
+      ]
+    },
+    {
+      "id": "pdp_m2_5_parking_facilities",
+      "title": "Parking and facilities",
+      "subtitle": "",
+      "amenityIds": [
+        25,
+        9,
+        15,
+        23
+      ]
+    },
+    {
+      "id": "pdp_m2_5_services",
+      "title": "Services",
+      "subtitle": "",
+      "amenityIds": [
+        55,
+        103,
+        104
+      ]
+    },
+    {
+      "id": "pdp_unavailable",
+      "title": "Not included",
+      "subtitle": "",
+      "amenityIds": [
+        33,
+        35,
+        36,
+        41
+      ]
+    }
+  ],
+  "bathroomLabel": "4 baths",
+  "bedLabel": "4 beds",
+  "bedroomLabel": "4 bedrooms",
+  "hasHouseRules": true,
+  "id": 17391059,
+  "isNewListing": false,
+  "listingRooms": [
+    {
+      "beds": [
+        {
+          "id": "16377743/king_bed",
+          "quantity": 1,
+          "type": "king_bed"
+        }
+      ],
+      "id": 16377743,
+      "roomNumber": 2
+    },
+    {
+      "beds": [
+        {
+          "id": "16377758/king_bed",
+          "quantity": 1,
+          "type": "king_bed"
+        }
+      ],
+      "id": 16377758,
+      "roomNumber": 4
+    },
+    {
+      "beds": [
+        {
+          "id": "16377712/crib",
+          "quantity": 1,
+          "type": "crib"
+        },
+        {
+          "id": "16377712/double_bed",
+          "quantity": 1,
+          "type": "double_bed"
+        }
+      ],
+      "id": 16377712,
+      "roomNumber": 1
+    },
+    {
+      "beds": [
+        {
+          "id": "16377754/double_bed",
+          "quantity": 1,
+          "type": "double_bed"
+        }
+      ],
+      "id": 16377754,
+      "roomNumber": 3
+    }
+  ],
+  "p3SummaryAddress": "Srinagar, Jammu and Kashmir, India",
+  "roomTypeCategory": "private_room",
+  "sectionedDescription": {
+    "access": "Guest have access between 11:30 to 14:30. In special situations late or early access is allowed,Safe car parking inside for2 cars.Street parking available.They can access all common spaces.",
+    "authorType": "human",
+    "description": "Our classic and comfortable  Double Beded 4 Bedroom (Entire property for 8 guests), has imposing entrance (majestic pillars ) gives a true feeling of Victorian area. It has common Modular big kitchen  with Dinning Room. A living room and a posh Drawing room, common to all guests.Conveniently located from ( 2 kms)  Nishat Garden and world famous Dal lake,Children above 12 years  will need extra bed , Bathrooms are electronically fitted with bathing cabinets orJocose. Children will be instructed.\n\nThe Manor  is located in tranquil as  Serene location away from away from hustle and bustle on markets and noisy of traffic on foothills of Zabarvan  range.. Beautiful Lawns, Stylish Living room with HD TV , Posh drawing Room , Dinning Room and safe car parking. Modular Kitchen with all essential gadgets.Bathrooms have hot tub or  electric cabins .\n\nGuest have access between 11:30 to 14:30. In special situations late or early access is allowed,Safe car parking inside for2 cars.Street parking available.They can access all common spaces.\n\nAny time  with house keeper but the customers  can communicate with the Manager on mobile as and when needed, with owner on WhatsApp\n\nBeautiful landscape, Serene and tranquil surroundings. It has Mountain View and lush green Lawns.The house is at peace with nature.\n\nCar available on hire round the clock . World famous Dal lake / Heritage Mughal Gardens,Nishat Garden built during Moghul emperors time , can be reached within 10 minutes . Market for essential commodities Great Deals is just half kilometer away.\n\nGuest should preferably have their transport available to commute for shopping and for sight seeing if they won't to do it on their own. Instead it can be arranged by house keeper on payment if requested earlier. Modular Kitchen is available,used only when guests request. The food can be cooked for guests on payment if they order in advance before check in or home delivered from restaurants if ordered 3 hours before on their menu and prices All this will make stay comfortable and enjoyable. Cheers",
+    "houseRules": "- Please take care and look after the property as you care for your own home.\n- Quiet hours- 10 pm to 7 am .                                   -  Sorry No wet , soiled or dirty shoes inside home ,rack provided at entrances.\n- Smoking is allowed in  private rooms or in lawn . NOT in common areas like living or drawing rooms.which is used by all other occupants living in the house.                                                                       -DRINKING allowed in Private rooms only, NOT allowed in common areas or in lawns.                                                      -Eating - Lunch Dinner is allowed in    the designated areas only .                                - Washing machine use allowed, cost per cycle (5.5kg load)  Rs 250 , which includes cost of electric energy, detergent and ironing , Machine wear and tear ,DIY (Do it yourself ).                                                      - You May use  Modular Kitchen DIY but Cost of cooking gas will be Rs 250 per day for 3 meals or Rs 200 BF/ Dinner.                                                         -Cleaning will be done just at just before you enter and once you leave .Rest DIY.                                        -A Govt approved ID Electronic ( on WhatsApp) to be submitted on arrival ( Govt requirement) of all Adult guests,                                 -Wishing you a happy, comfortable and a lovely time. Cheers",
+    "interaction": "Any time  with house keeper but the customers  can communicate with the Manager on mobile as and when needed, with owner on WhatsApp",
+    "locale": "en",
+    "localizedLanguageName": "English",
+    "name": "The Manor-Charming Villa Nishat Srinagar Kashmir",
+    "neighborhoodOverview": "Beautiful landscape, Serene and tranquil surroundings. It has Mountain View and lush green Lawns.The house is at peace with nature.",
+    "notes": "Guest should preferably have their transport available to commute for shopping and for sight seeing if they won't to do it on their own. Instead it can be arranged by house keeper on payment if requested earlier. Modular Kitchen is available,used only when guests request. The food can be cooked for guests on payment if they order in advance before check in or home delivered from restaurants if ordered 3 hours before on their menu and prices All this will make stay comfortable and enjoyable. Cheers",
+    "space": "The Manor  is located in tranquil as  Serene location away from away from hustle and bustle on markets and noisy of traffic on foothills of Zabarvan  range.. Beautiful Lawns, Stylish Living room with HD TV , Posh drawing Room , Dinning Room and safe car parking. Modular Kitchen with all essential gadgets.Bathrooms have hot tub or  electric cabins .",
+    "summary": "Our classic and comfortable  Double Beded 4 Bedroom (Entire property for 8 guests), has imposing entrance (majestic pillars ) gives a true feeling of Victorian area. It has common Modular big kitchen  with Dinning Room. A living room and a posh Drawing room, common to all guests.Conveniently located from ( 2 kms)  Nishat Garden and world famous Dal lake,Children above 12 years  will need extra bed , Bathrooms are electronically fitted with bathing cabinets orJocose. Children will be instructed.",
+    "transit": "Car available on hire round the clock . World famous Dal lake / Heritage Mughal Gardens,Nishat Garden built during Moghul emperors time , can be reached within 10 minutes . Market for essential commodities Great Deals is just half kilometer away."
+  },
+  "tierId": 0,
+  "guestControls": {
+    "allowsChildren": true,
+    "allowsEvents": true,
+    "allowsInfants": true,
+    "allowsPets": true,
+    "allowsSmoking": true,
+    "personCapacity": 2,
+    "structuredHouseRules": [
+      "Check-in time is 12PM (noon) - 2PM and check out by 12PM (noon)"
+    ],
+    "structuredHouseRulesWithTips": [
+      {
+        "key": "check_in_time_and_check_out_time",
+        "text": "Check-in time is 12PM (noon) - 2PM and check out by 12PM (noon)",
+        "airmojiKey": "accomodation_keys"
+      },
+      {
+        "key": "self_check_in",
+        "text": "Self check-in with building staff",
+        "airmojiKey": "pdp_room"
+      }
+    ],
+    "allowsNonChinaUsers": true
+  },
+  "hasSpecialOffer": false,
+  "maxNights": 364,
+  "minNights": 1,
+  "priceDetails": [
+    {
+      "label": "Cleaning Fee",
+      "value": "$8",
+      "attributeType": "CLEANING_FEE"
+    },
+    {
+      "label": "Security Deposit",
+      "value": "$120",
+      "attributeType": "HOST_REQUIRED_SECURITY_DEPOSIT"
+    },
+    {
+      "label": "Weekend Price",
+      "value": "$45 per night",
+      "attributeType": "WEEKEND_PRICE"
+    }
+  ],
+  "hasWeWorkLocation": false,
+  "isBusinessTravelReady": false,
+  "hometourRooms": [
+    {
+      "details": [],
+      "highlightsHometour": [
+        "1 double bed",
+        "1 crib"
+      ],
+      "highlightsPreview": [],
+      "isShared": false,
+      "id": 16377712,
+      "name": "",
+      "nameWithType": "Bedroom 1",
+      "photos": [],
+      "roomTypeId": 1,
+      "icons": [
+        {
+          "type": "double_bed",
+          "url": ""
+        },
+        {
+          "type": "crib",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "details": [],
+      "highlightsHometour": [
+        "1 king bed"
+      ],
+      "highlightsPreview": [],
+      "isShared": false,
+      "id": 16377743,
+      "name": "",
+      "nameWithType": "Bedroom 2",
+      "photos": [],
+      "roomTypeId": 1,
+      "icons": [
+        {
+          "type": "king_bed",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "details": [],
+      "highlightsHometour": [
+        "1 double bed"
+      ],
+      "highlightsPreview": [],
+      "isShared": false,
+      "id": 16377754,
+      "name": "",
+      "nameWithType": "Bedroom 3",
+      "photos": [],
+      "roomTypeId": 1,
+      "icons": [
+        {
+          "type": "double_bed",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "details": [],
+      "highlightsHometour": [
+        "1 king bed"
+      ],
+      "highlightsPreview": [],
+      "isShared": false,
+      "id": 16377758,
+      "name": "",
+      "nameWithType": "Bedroom 4",
+      "photos": [],
+      "roomTypeId": 1,
+      "icons": [
+        {
+          "type": "king_bed",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "hometourSections": [],
+  "descriptionLocale": "en",
+  "initialDescriptionAuthorType": "human",
+  "localizedCheckInTimeWindow": "12:00 PM - 2:00 PM",
+  "localizedCheckOutTime": "12:00 PM",
+  "city": "Srinagar",
+  "country": "India",
+  "countryCode": "IN",
+  "hasHostGuidebook": false,
+  "hasLocalAttractions": false,
+  "neighborhoodCommunityTags": [],
+  "state": "Jammu and Kashmir",
+  "paidGrowthRemarketingListingIds": [],
+  "hasCommercialHostInfo": false,
+  "reviewDetailsInterface": {
+    "reviewCount": 21,
+    "reviewSummary": [
+      {
+        "value": 10,
+        "label": "Accuracy",
+        "localizedRating": "4.8",
+        "percentage": 0.952
+      },
+      {
+        "value": 9,
+        "label": "Communication",
+        "localizedRating": "4.7",
+        "percentage": 0.942
+      },
+      {
+        "value": 9,
+        "label": "Cleanliness",
+        "localizedRating": "4.7",
+        "percentage": 0.942
+      },
+      {
+        "value": 9,
+        "label": "Location",
+        "localizedRating": "4.3",
+        "percentage": 0.858
+      },
+      {
+        "value": 10,
+        "label": "Check-in",
+        "localizedRating": "4.8",
+        "percentage": 0.952
+      },
+      {
+        "value": 9,
+        "label": "Value",
+        "localizedRating": "4.5",
+        "percentage": 0.8960000000000001
+      }
+    ]
+  },
+  "reviewsOrder": "language_country",
+  "nearbyAirportDistanceDescriptions": [],
+  "renderTierId": 0,
+  "isHotel": false,
+  "accessibilityModule": {
+    "amenities": [
+      {
+        "description": "The sidewalk or pathway to the guest entrance has lighting that makes nighttime navigation easier.",
+        "id": 113,
+        "isPresent": true,
+        "name": "Lit path to the guest entrance"
+      }
+    ],
+    "rootHighlights": [
+      "Lit path to the guest entrance"
+    ],
+    "seeAllSections": [
+      {
+        "id": "accessibility_group_getting_inside:08892e0ba476cb2c",
+        "title": "Guest entrance and parking",
+        "subtitle": "",
+        "amenityIds": [
+          113
+        ],
+        "photos": [
+          {
+            "id": 931767199,
+            "thumbnailUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-17391059-Amenities/original/a717eacc-a7ac-46ce-953d-18eda8356dcc.jpeg?aki_policy=small",
+            "largeUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-17391059-Amenities/original/a717eacc-a7ac-46ce-953d-18eda8356dcc.jpeg?aki_policy=large",
+            "caption": "Main pathway to the building.",
+            "xLargeUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-17391059-Amenities/original/a717eacc-a7ac-46ce-953d-18eda8356dcc.jpeg?aki_policy=x_large",
+            "xxLargeUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-17391059-Amenities/original/a717eacc-a7ac-46ce-953d-18eda8356dcc.jpeg?aki_policy=xx_large"
+          },
+          {
+            "id": 931767903,
+            "thumbnailUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-17391059-Amenities/original/9413391c-4c87-47a8-827e-4c69562a5c0c.jpeg?aki_policy=small",
+            "largeUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-17391059-Amenities/original/9413391c-4c87-47a8-827e-4c69562a5c0c.jpeg?aki_policy=large",
+            "caption": "Another wide pathway from back to the main building ",
+            "xLargeUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-17391059-Amenities/original/9413391c-4c87-47a8-827e-4c69562a5c0c.jpeg?aki_policy=x_large",
+            "xxLargeUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-17391059-Amenities/original/9413391c-4c87-47a8-827e-4c69562a5c0c.jpeg?aki_policy=xx_large"
+          }
+        ]
+      }
+    ],
+    "seeAllSummary": "This host has reviewed their place for accessibility features. Wide entrances are at least 32\" (81cm)."
+  },
+  "showReviewTag": false,
+  "isRepresentativeInventory": false,
+  "localizedCity": "Srinagar",
+  "highlights": [
+    {
+      "type": "LISTING_SELF_CHECKIN",
+      "message": "You can check in with the doorman.",
+      "headline": "Self check-in",
+      "position": "0",
+      "icon": "pdp_room"
+    },
+    {
+      "type": "LISTING_POPULAR_AMENITY",
+      "message": "Guests often search for this popular amenity",
+      "headline": "Pets allowed",
+      "position": "1",
+      "icon": "extras_star"
+    }
+  ],
+  "highlightsImpressionId": "c5938927-5a67-21a1-0cd7-c26f8b029b2b",
+  "categorizedPreviewAmenities": [
+    {
+      "category": "Standard",
+      "amenities": "Wifi, Kitchen, Air conditioning, Heating, TV, and 16 more"
+    },
+    {
+      "category": "Other highlights",
+      "amenities": "Hot tub, Free parking on premises, Gym, Free street parking, Indoor fireplace, and 23 more"
+    }
+  ],
+  "pointOfInterests": [],
+  "chinaPointsOfInterestMatcha": {},
+  "hostGuidebook": {
+    "guidebookUrl": "/s/guidebooks?refinement_paths[]=/guidebooks/3391111",
+    "localizedNameForHomesPdp": "Show guidebook",
+    "title": "Dr.Bashir’s guidebook",
+    "id": 3391111
+  },
+  "pageViewType": "DEFAULT",
+  "previewTags": [],
+  "seeAllHometourSections": [],
+  "enableHighlightsVoting": false,
+  "listingExpectations": [
+    {
+      "addedDetails": "There is a local shepard dog pup (about 5 months old) staying at the property. He belongs to the caretaker of the house. He is a lovely little chap, but gets a bit too excited when seeing many people (loves jumping on people)!",
+      "title": "Pet(s) live on property",
+      "type": "has_pets",
+      "airmojiKey": "house_rules_property_pet"
+    },
+    {
+      "addedDetails": "limited hot water depending on local load shedding (electricity goes out 3 to 4 hours a day) and the mobile signal reception  may be weak depending on your service provider.",
+      "title": "Amenity limitations",
+      "type": "limited_amenities",
+      "airmojiKey": "status_cancelled"
+    },
+    {
+      "addedDetails": "There is spiral staircase that takes guests to the first floor, where most of the rooms are located. There are also steps outside the main door, that give access to the garden.",
+      "title": "Must climb stairs",
+      "type": "requires_stairs",
+      "airmojiKey": "house_rules_stairs"
+    },
+    {
+      "title": "Security deposit - if you damage the home, you may be charged up to $120",
+      "type": "security_deposit",
+      "airmojiKey": "em_payment"
+    },
+    {
+      "addedDetails": "We have 8 security cameras covering all 4 outside sides of the Residential House and main gates and front road. They will be on during the stay of guest.",
+      "title": "Surveillance or recording devices on property",
+      "type": "surveillance",
+      "airmojiKey": "status_cancelled"
+    }
+  ],
+  "localizedListingExpectations": [
+    {
+      "addedDetails": "There is a local shepard dog pup (about 5 months old) staying at the property. He belongs to the caretaker of the house. He is a lovely little chap, but gets a bit too excited when seeing many people (loves jumping on people)!",
+      "title": "Pet(s) live on property",
+      "type": "has_pets",
+      "airmojiKey": "house_rules_property_pet"
+    },
+    {
+      "addedDetails": "limited hot water depending on local load shedding (electricity goes out 3 to 4 hours a day) and the mobile signal reception  may be weak depending on your service provider.",
+      "title": "Amenity limitations",
+      "type": "limited_amenities",
+      "airmojiKey": "status_cancelled"
+    },
+    {
+      "addedDetails": "There is spiral staircase that takes guests to the first floor, where most of the rooms are located. There are also steps outside the main door, that give access to the garden.",
+      "title": "Must climb stairs",
+      "type": "requires_stairs",
+      "airmojiKey": "house_rules_stairs"
+    },
+    {
+      "title": "Security deposit - if you damage the home, you may be charged up to $120",
+      "type": "security_deposit",
+      "airmojiKey": "em_payment"
+    },
+    {
+      "addedDetails": "We have 8 security cameras covering all 4 outside sides of the Residential House and main gates and front road. They will be on during the stay of guest.",
+      "title": "Surveillance or recording devices on property",
+      "type": "surveillance",
+      "airmojiKey": "status_cancelled"
+    }
+  ],
+  "heroModule": {
+    "categorizedPhotos": []
+  },
+  "reviewsModule": {
+    "localizedOverallRating": "4.48",
+    "appreciationTags": []
+  },
+  "availabilityModule": {},
+  "additionalHouseRules": "- Please take care and look after the property as you care for your own home.\n- Quiet hours- 10 pm to 7 am .                                   -  Sorry No wet , soiled or dirty shoes inside home ,rack provided at entrances.\n- Smoking is allowed in  private rooms or in lawn . NOT in common areas like living or drawing rooms.which is used by all other occupants living in the house.                                                                       -DRINKING allowed in Private rooms only, NOT allowed in common areas or in lawns.                                                      -Eating - Lunch Dinner is allowed in    the designated areas only .                                - Washing machine use allowed, cost per cycle (5.5kg load)  Rs 250 , which includes cost of electric energy, detergent and ironing , Machine wear and tear ,DIY (Do it yourself ).                                                      - You May use  Modular Kitchen DIY but Cost of cooking gas will be Rs 250 per day for 3 meals or Rs 200 BF/ Dinner.                                                         -Cleaning will be done just at just before you enter and once you leave .Rest DIY.                                        -A Govt approved ID Electronic ( on WhatsApp) to be submitted on arrival ( Govt requirement) of all Adult guests,                                 -Wishing you a happy, comfortable and a lovely time. Cheers ",
+  "sortedReviews": [],
+  "documentDisplayPictures": [],
+  "sections": [],
+  "metadata": {},
+  "p3ImpressionId": "c5938927-5a67-21a1-0cd7-c26f8b029b2b",
+  "idStr": "17391059",
+  "paidGrowthRemarketingListingIdsStr": []
+}

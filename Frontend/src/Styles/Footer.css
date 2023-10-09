@@ -1,0 +1,76 @@
+:root {
+    --mainFont: 'Nunito Sans', sans-serif
+}
+
+.body{
+    height: auto;
+    width: auto;
+}
+
+.main{
+    font-family: var(--mainFont);
+}
+
+.modal-100w {
+    position: relative;
+    width: 100% !important;
+    max-width: 100%;
+}
+
+.list-modal {
+    list-style-type: none;
+}
+
+.footer {
+    position: fixed;
+    background-color: white !important;
+    max-width: 100%;
+    width: 100vw;
+    z-index: 3;
+    bottom: 0;
+    font-size: 15.3px;
+    border-top: 0.00001px solid rgb(190, 190, 190);
+}
+
+.modal-bottom {
+    padding-top: 10rem;
+    margin-left: -0.5rem;
+    width: 105%;
+}
+
+.close-btn{
+    border-radius: 50%;
+    margin-top: -1vh;
+}
+
+
+.underline{
+    font-size: 15.3px;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-item-left {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    padding: 10px;
+    flex: 50%;
+    font-weight: 500;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}

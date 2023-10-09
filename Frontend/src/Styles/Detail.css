@@ -1,0 +1,109 @@
+.box{
+    width:100%
+}
+
+.name{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Rimage{
+    border-radius: 50%;
+}
+
+.detail{
+    font-size: 17px;
+    color:rgba(0,0,0,0.8);
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.Sname{
+    font-size: 19px;
+    font-weight: 500;    
+}
+
+.Sdetail{
+    font-size: 15px;
+    color:rgba(0,0,0,0.6);
+}
+
+.svg{
+    align-items: center;
+    display: flex;
+}
+
+.Amargin{
+    margin-left: 13px;
+}
+
+.para{
+    font-size: 20px;
+}
+
+.custom_dialog
+{
+    width:700px;
+}
+
+.modal-80w{
+    width: 90% !important;
+}
+
+.modal{
+    justify-content: center;
+    /* height: 110vh; */
+    /* padding-top: 2vh; */
+    padding-left: 20vw;
+}
+
+.modal-content{
+    width: 50vw;
+    height: 70vh;
+}
+
+.strike{
+    text-decoration:line-through;
+}
+.swiper-bed {
+    width: 10vw;
+    height: 20vh;
+}
+
+.splide__list {
+    height: 20vh;
+    /* width: 90vw; */
+}
+
+.splide-container {
+    width: 40vw;
+}
+
+.splide__arrow--prev {
+    left: -1em !important;
+}
+
+.splide__arrow--next {
+    right: 1.9em !important;
+}
+
+.splide__arrow svg {
+    fill: #000;
+    height: .7em !important;
+    width: .7em !important;
+}
+
+.splide__arrow {
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 4px;
+}
+
+.svg-container {
+    display: flex;
+}
+
+.svg-container>span {
+    margin-right: 10px;
+}

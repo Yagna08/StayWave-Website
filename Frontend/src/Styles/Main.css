@@ -1,0 +1,105 @@
+:root {
+  --mainFont: 'Montserrat', sans-serif;
+}
+
+.main {
+  font-family: var(--mainFont);
+}
+
+.round-btn {
+  border-radius: 50% !important;
+}
+
+.modal-100w {
+  padding-top: 1vh;
+  position: relative;
+  /* max-width: 135vh; */
+}
+
+/* .modal-content {
+} */
+
+.slide-up {
+  animation: slideUp 0.5s ease-in-out;
+}
+
+element.style{
+  padding-left: 0vh !important;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+.book-model {
+  position: sticky;
+  top: 1rem;
+}
+
+.fixPos{
+  height: 70vh;
+}
+
+.Rname {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.Rdate {
+  font-size: 0.95rem;
+  color: gray;
+}
+
+.Rimage {
+  border-radius: 50%;
+  /* font-size: 10px; */
+  height: 2rem ;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.des {
+  margin: 5px;
+  font-size: 0.9rem;
+}
+
+.progress {
+  height: 0.29rem;
+  width: 60%;
+  margin-top: 0.6rem;
+}
+
+.progress-bar{
+  background-color: black;
+}
+
+.pro{
+  padding: 1rem;
+  display: flex !important;
+  justify-content: flex-end !important; 
+}
+
+.ratings{
+  font-size: small;
+}
+
+.google{
+  height: 20vh !important;
+}
+
+.more-photos{
+  position: absolute;
+  z-index: 1;
+  top: 72vh;
+  right: 11vw;
+}
+.more-photos:focus{
+  /* position: absolute; */
+  top: 72vh;
+  right: 11vw;
+}

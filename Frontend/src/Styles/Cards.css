@@ -1,0 +1,90 @@
+:root {
+  --swiper-navigation-size: 1rem !important;
+  --swiper-navigation-color: rgb(0, 0, 0);
+  --swiper-theme-color: white !important;
+}
+
+.any {
+  display: block !important;
+  width: 100% !important;
+}
+
+.hideover {
+  height: auto !important;
+  overflow-x: hidden !important;
+}
+
+.infinite-scroll-component {
+  height: auto !important;
+  overflow-x: hidden !important;
+}
+
+div.swiper-button-next,
+div.swiper-button-prev {
+  font-weight: 1000;
+  font-size: var(--swiper-navigation-size);
+  background-color: white;
+  font-size: 1vh;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: 0;
+}
+
+div.swiper-button-disabled {
+  opacity: 0;
+  display: none;
+}
+
+
+div.swiper-button-next:hover,
+div.swiper-button-prev:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+div.swiper-button-next:active,
+div.swiper-button-prev:active {
+  transform: scale(0.95);
+}
+
+.card-data {
+  margin-left: -0.7rem !important;
+  display: grid;
+  grid-template-columns: 0.83fr auto;
+  width: 125% !important;
+}
+
+.card-space {
+  width: 100% !important;
+}
+
+.reviews{
+  
+  width: 100%;
+}
+
+.heart {
+  z-index: 2;
+  position: relative;
+  top: 2.5rem;
+  right: -1rem;
+}
+
+.swiper-slide {
+  aspect-ratio: 1/1;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+}

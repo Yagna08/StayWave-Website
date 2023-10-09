@@ -1,0 +1,410 @@
+#mainNav {
+    background-color: white !important;
+    border: none !important;
+}
+
+.modal {
+    --bs-modal-width: 500vh;
+}
+#main-brand>img
+{
+    height:2rem;
+    width: 8rem;
+    margin-left: 0.7rem;
+}
+#brand{
+    height: 6.2vh;
+}
+#brand>img{
+    height:2rem;
+    width: 8rem;
+    margin-top: 0.3rem;
+}
+.navSearchButton {
+    /* background-color: white !important; */
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    width: 25vw;
+    box-shadow: 1px 1px lightgrey;
+    /* margin-left:50vh; */
+}
+
+.navSearchButton>button:is(:nth-child(1), :nth-child(2)) {
+    border-right: 1px solid lightgrey;
+    border-radius: 0%;
+    height: 75%;
+}
+
+.navSearchButton>button:nth-child(4) {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.2rem !important;
+    border-radius: 50%;
+    background-color: #E00B41;
+    color: white;
+}
+
+.navTopRight {
+    border-style: none !important;
+    outline-style:none !important;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: none;
+}
+
+.navDropDownButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 2rem;
+    width: 10vh;
+    height: 5vh;
+}
+
+.navDropDown{
+    border: 1px solid black;
+    outline-style: none;
+    border-radius: 20rem;
+}
+.dropdown-toggle {
+    width: 100%;
+    padding: 2px;
+}
+a#basic-nav-dropdown.dropdown-toggle.nav-link::before {
+    display: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#NavModal {
+    width: 100% !important;
+    height: 50vh !important;
+    margin-top: 0;
+    position: absolute;
+    right: 0rem;
+
+}
+
+
+#NavModal .modal-content {
+    height: 0;
+
+}
+
+#NavModal #mainNav {
+    width: 190vh;
+}
+
+#modalFilter>button>form>input.me-2 {
+    border: 1px solid lightgrey !important;
+    background-color: lightgrey !important;
+    text-align: center;
+    height: 2rem !important;
+    margin-left: 1rem;
+    width:50%;
+}
+
+#modalFilter>button.active {
+    width: 15rem !important;
+}
+
+#modalFilter>button.active>form>input.me-2 {
+    background-color: white !important;
+    border: 1px solid white !important;
+    height: 2rem !important;
+    box-shadow: none !important;
+    text-align: center;
+
+}
+
+#modalFilter>button:nth-child(1)>form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#modalFilter>button:not(:nth-child(1)).active {
+    background-color: white;
+    box-shadow: 4px 2px white !important;
+    width: 10rem !important;
+    border-radius: 2rem;
+}
+
+#modalFilter>button:nth-child(4).active {
+    background-color: white;
+    box-shadow: 4px 2px white !important;
+    width: 15rem !important;
+    border-radius: 2rem;
+}
+
+#modalFilter>button.active {
+    background-color: white;
+    box-shadow: 4px 2px white !important;
+    border-radius: 2rem;
+}
+
+.modalNavSearchButton {
+    text-align: center;
+}
+
+.modalNavSearchButton>button:hover {
+    text-decoration: underline;
+}
+
+#modalFilter {
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 5vh;
+    width: 45rem;
+    height: 3.9rem;
+    margin: 0 auto;
+    margin-bottom: 1vh;
+    left: 16rem;
+    display: flex;
+    box-shadow: -1px 2px white;
+}
+
+#modalFilter>button:is(:nth-child(2), :nth-child(3)) {
+    width: 15vh;
+}
+
+#modalFilter>button:is(:nth-child(2), :nth-child(3))>input {
+    background-color: white;
+}
+
+#modalFilter>:not(button>:nth-child(4)) {
+    margin-right: 8vh;
+}
+
+#modalFilter>button:nth-child(4) {
+    margin-right: 0;
+    width: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalFilter>button:nth-child(4)>div {
+    margin-left: 2vh;
+}
+
+#modalFilter>button:nth-child(4)>button {
+    background-color: #E00B41 ;
+    color: white;
+    border-radius: 3vh;
+    height: 6vh;
+    width: 6vh;
+    margin-left: 1rem;
+
+}
+
+#modalFilter>button:nth-child(4)>button,
+#modalFilter>button:nth-child(4)>div {
+    float: left;
+}
+
+#modalFilter>button:is(:nth-child(2), :nth-child(3))>input:focus {
+    border: none !important;
+
+}
+
+#modalCalendarFilterBtn {
+    display: flex;
+    justify-content: center;
+    margin-left: 5vh;
+}
+
+
+#guestModal {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 12vh;
+    right: 40vh;
+}
+
+.tab3MainHold {
+    background-color: white;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    width: 26rem !important;
+    height: 26rem !important;
+    border-radius: 20px !important;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.adultsKidsHold {
+    position: relative;
+    top: 5rem !important;
+    left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.adultCriteriaHold {
+    position: relative;
+    bottom: 9rem !important;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    left: 3rem;
+}
+
+.divideLineHold {
+    position: relative;
+    bottom: 22rem !important;
+    left: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5.5rem;
+}
+
+.navLine {
+    background-color: rgb(241, 234, 234);
+    width: 19rem;
+    height: 0.1rem;
+    z-index: 99999;
+
+}
+
+.fss {
+    font-size: 30px;
+}
+
+.btnControlsPlus {
+    position: relative;
+    bottom: 33.5rem !important;
+    left: 17rem !important;
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    cursor: pointer;
+    width: 1.5rem;
+}
+
+.btnControlMinus {
+    position: relative;
+    bottom: 48rem;
+    left: 22rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    width: 1.5rem;
+    cursor: pointer !important;
+
+}
+
+
+.navQtyHold {
+    position: relative;
+    bottom: 62.5rem;
+    left: 20rem;
+    gap: 3.8rem;
+    display: flex;
+    flex-direction: column;
+    width: 1.4rem;
+}
+
+
+.selectWrapper {
+    position: relative;
+    bottom: 82rem;
+    left: 16.4rem;
+    width: 7rem !important;
+    outline: none !important;
+}
+
+
+.tabContentPlaces {
+    position: absolute;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    height: 23rem !important;
+    top: 5rem;
+    left: 1rem;
+    border-radius: 15px !important;
+
+}
+
+.tabContent1Hold {
+    display: flex;
+    flex-wrap: wrap;
+    width: 34rem !important;
+    gap: 4rem !important;
+    position: relative;
+    top: 1rem !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabContent1Image {
+    width: 7rem !important;
+    border-radius: 10px !important;
+    transition: all 400ms ease !important;
+}
+
+.secImages {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    column-gap: 4rem;
+    left: 0.2rem !important;
+}
+
+.tabContent1Image:hover {
+    border: 1px solid black !important;
+}
+.tabContent1ImageActive {
+    width: 7rem !important;
+    border-radius: 10px !important;
+    transition: all 400ms ease !important;
+    border: 1px solid black;
+}
+.fs {
+    font-size: 14px !important;
+}
+
+.imgCaptionHold {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7rem !important;
+    bottom: 7rem !important;
+    position: relative;
+    row-gap: 11.3rem !important;
+    left: 4rem !important;
+}
+
+.secText {
+    position: relative;
+    display: flex;
+    gap: 7rem;
+    left: 3.5rem;
+    top: 5rem;
+}
+
+.searchDisplayParent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logoutShow {
+    text-align: left !important;
+    width: 100% !important;
+    display: block !important;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+    color: black;
+}

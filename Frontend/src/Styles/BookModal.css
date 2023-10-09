@@ -1,0 +1,118 @@
+:root {
+    --mainFont: 'Nunito Sans', sans-serif
+}
+
+.main {
+    font-family: var(--mainFont);
+}
+
+.bookcard {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    position: sticky;
+}
+
+.guestdrop {
+    width: 100%;
+    
+}
+.guests{
+    margin-top: 0.5rem;
+    margin-left: -0.125rem;
+    width:20.6rem;
+}
+.dropdown-toggle {
+    width: 100%;
+    padding: 2px;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.custom-toggle {
+    border: 1px solid lightgray;
+    text-align: left;
+}
+
+.custom-toggle:hover {
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.custom-toggle:focus {
+    border: 1px solid lightgray;
+    box-shadow: rgb(168, 168, 168) 0px 5px 15px;
+}
+
+.guest {
+    font-size: small;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle:focus {
+    /* border: 2px solid black; */
+    box-shadow: none !important;
+}
+
+.minusbtn {
+    border-radius: 9rem;
+    border: 1px solid gray;
+    height: 2.1rem;
+    margin: 0.4rem 1rem 0rem 0rem;
+    display: flex;
+    align-content: center;
+}
+
+.plusbtn {
+    border-radius: 9rem;
+    border: 1px solid gray;
+    /* margin: 1rem; */
+    margin: 0.4rem 0rem 0rem 1rem;
+    height: 2.1rem;
+    display: flex;
+    align-content: center;
+}
+
+.criteriaFilter {
+    width: 40vh;
+    display: grid;
+    grid-template-columns: auto 50%;
+}
+
+.criteriaDetail {
+    width: 50%;
+}
+
+.criteriaDetail>div:nth-child(2) {
+    font-size: 0.95rem;
+}
+
+.criteriaChangeBtn {
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.card {
+    border-radius: 6%;
+}
+
+
+.disabled{
+    color: lightgrey !important;
+    border-color: lightgrey !important;
+}
+.modal-20w {
+    width: 20%;
+    position: relative;
+    padding-top: 35vh;
+}
+
+.reserveDate {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #E00B41;
+    color: white;
+}

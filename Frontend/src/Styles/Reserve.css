@@ -1,0 +1,24 @@
+#reserve{
+    top:10rem;
+    left: 25vw;
+    width: 30rem;
+    border-radius: 1.5rem;
+}
+
+.reservebtn{
+    background-color: #E00B41;
+    color: beige;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: none !important;
+}
+
+.room-type{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.room-name{
+    font-weight: 600;
+    font-size: 0.9rem;
+}

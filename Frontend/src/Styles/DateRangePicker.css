@@ -1,0 +1,17 @@
+
+.k-input-md .k-input-inner{
+    padding: 13px !important;
+    width: 100%;
+}
+.k-input-solid.k-invalid, .k-input-solid.ng-invalid.ng-touched, .k-input-solid.ng-invalid.ng-dirty{
+    border-color: lightgrey !important;
+}
+.k-form-error, .k-text-error, .k-form-field-error .k-label{
+    color: black !important;
+}
+
+.k-input-solid.k-invalid, .k-input-solid.ng-invalid.ng-touched, .k-input-solid.ng-invalid.ng-dirty, .k-daterange-picker .k-dateinput, .k-daterangepicker .k-dateinput{
+    width: 105%;
+    margin-left: -0.2rem;
+}
+

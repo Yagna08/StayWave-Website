@@ -1,0 +1,145 @@
+#filterModal{
+    width: 60%;
+}
+#placeBtn{
+    display: flex;
+    justify-content: center;
+}
+#placeBtn>div{
+    outline: 1px solid lightgrey;
+    width: 30.1rem;
+    border-radius: 2vh;
+
+}
+#placeBtn>div>button{
+    width: 10rem;
+    height: 4rem;
+}
+#placeBtn>div>button:not(:nth-child(3)){
+    border-right: 1px solid lightgrey;
+
+}
+.placeActive1{
+    border-radius: 2vh 0vh 0vh 2vh;
+    background-color: black;
+    color: white;
+}
+.placeActive2{
+    background-color: black;
+    color: white;
+}
+.placeActive3{
+    border-radius: 0vh 2vh 2vh 0vh;
+    background-color: black;
+    color: white;
+}
+.placeNotActive1,.placeNotActive2,.placeNotActive3{
+    background-color: white;
+    color: black;
+}
+#priceSlider{
+    display: flex;
+    justify-content: center;
+}
+#priceSlider>div>.rc-slider{
+    width: 36.5rem;
+}
+#priceSlider>div>form{
+    display: flex;
+    justify-content: center;
+}
+#priceSlider>div>form>.ant-form-item{
+    width: 15rem;
+    float: left;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.ant-input{
+    height: 3rem;
+}
+
+.roomsBedsBtn{
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+
+}
+.roomsBedsBtn>button{
+    border: 1px solid lightgrey;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+.roomsActive{
+    background-color: black;
+    color: white;
+}
+#propertyType>div{
+    display: flex;
+    gap: 2rem;;
+}
+#propertyType>div>button{
+    width: 10rem;
+    height: 8rem;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;;
+    text-align: left;
+
+}
+#propertyType>div>button>div{
+    margin-left: 1rem; 
+
+}
+.propertyIcon{
+    margin-bottom:3rem;
+}
+.propertyIcon>svg{
+    width: 2rem;
+    height: 2rem
+}
+.propertyActive1, .propertyActive2, .propertyActive3, .propertyActive4{
+    background-color: lightgrey;
+    border: 1px solid black !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner{
+    border: 1px solid black !important;
+    background-color: black;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    justify-content: center;
+}
+
+span.ant-checkbox-inner{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+/* input.ant-checkbox-input{
+    border-color: black !important;
+} */
+.ant-col-12{
+    margin-bottom: 1rem;
+
+}
+#showAmenitiesBtn{
+    color: black;
+    text-decoration: underline;
+}
+
+.showMore{
+    display: block;
+}
+.showLess{
+    display: none;
+}
+#clearAll{
+    position: absolute;
+    left: 1rem;
+}
+#showAllFilter{
+    background-color: black;
+    color: white;
+}
+.btn-close
+{
+    --bs-btn-close-focus-shadow: none;
+}

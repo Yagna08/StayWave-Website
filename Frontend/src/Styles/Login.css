@@ -1,0 +1,13 @@
+.form-container
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form-card
+{
+    border: 1px solid black;
+    padding: 30px;
+    width:50%;
+}

@@ -1,0 +1,7 @@
+.noDataFound{
+    margin-top: 8.5rem;
+    margin-left: 35rem;
+}
+.noDataFound>h2{
+    margin-left: -8rem;
+}
