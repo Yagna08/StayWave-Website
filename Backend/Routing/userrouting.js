@@ -7,7 +7,7 @@ const homeAuth = require('../Middleware/homeAuth')
 const router=express.Router()
 
 //routes
-router.post('/login',loginControl)
+router.get('/login',loginControl)
 router.post('/register',registerControl)
 router.post('/getUserData',homeAuth,homeControl)
 router.get('/getData',userControl)
