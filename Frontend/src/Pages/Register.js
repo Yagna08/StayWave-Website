@@ -25,7 +25,7 @@ const Register = () => {
     {
       try {
         // dispatch(showLoading())
-        const res = await axios.post('/api/user/register', values)
+        const res = await axios.post('https://staywave-backend.onrender.com/api/user/register', values)
         // dispatch(hideLoading())
         if(res.data.success){
           message.success('Success')

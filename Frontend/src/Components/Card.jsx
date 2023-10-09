@@ -27,7 +27,7 @@ export default function Cards() {
   const wishlist = async () => {
     try {
       const userid = localStorage.getItem("userid")
-      let getdata = await axios.post('/api/user/getuserwishlistdata', { userid })
+      let getdata = await axios.post('https://staywave-backend.onrender.com/api/user/getuserwishlistdata', { userid })
       console.log(getdata.data.getdatawishlist)
       setHotels(getdata.data.getdatawishlist)
       setLength(getdata.data.length)

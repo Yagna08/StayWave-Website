@@ -15,7 +15,7 @@ app.use(cors())
 app.use(express.json())
 app.use(morgan('dev'))
 
-app.use('/api/user',require('./Routing/userrouting'))
+app.use('https://staywave-backend.onrender.com/api/user',require('./Routing/userrouting'))
 //listening port
 app.listen(port,()=>
 {
