@@ -18,12 +18,13 @@ app.use(cors(
 ))
 app.use(express.json())
 app.use(morgan('dev'))
-
-app.use('https://staywave-backend.onrender.com/api/user',require('./Routing/userrouting'))
-//listening port
 app.get('/', (req, res) => {
     res.send('Server is Running')
 })
+
+app.use('https://staywave-backend.onrender.com/api/user',require('./Routing/userrouting'))
+//listening port
+
 app.listen(port,()=>
 {
     console.log(`Server running ${process.env.NODE_MODE} on ${process.env.PORT}`)

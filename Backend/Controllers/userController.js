@@ -171,8 +171,6 @@ const userControl = async (req, res) => {
       ]
     }).count();
 
-
-    res.write('In getData')
     res.status(200).json({
       message: "Register Success",
       success: true,
