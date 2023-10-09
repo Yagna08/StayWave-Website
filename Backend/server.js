@@ -21,7 +21,7 @@ app.use(morgan('dev'))
 
 app.use('https://staywave-backend.onrender.com/api/user',require('./Routing/userrouting'))
 //listening port
-app.post('/', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Server is Running')
 })
 app.listen(port,()=>
