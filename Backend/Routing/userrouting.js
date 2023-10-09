@@ -10,7 +10,7 @@ const router=express.Router()
 router.post('/login',loginControl)
 router.post('/register',registerControl)
 router.post('/getUserData',homeAuth,homeControl)
-router.post('/getData',userControl)
+router.get('/getData',userControl)
 router.post('/trial',userControl);
 router.post('/skips',userControl)
 router.post('/single',IndiControl)
