@@ -18,6 +18,9 @@ app.use(cors(
 ))
 app.use(express.json())
 app.use(morgan('dev'))
+app.use((req, res) =>{
+    res.header('Access-Control-Allow-Origin', 'https://stay-wave-website.vercel.app');
+})
 app.get('/', (req, res) => {
     res.send('Server is Running')
 })
