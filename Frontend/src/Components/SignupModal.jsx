@@ -16,7 +16,7 @@ export default function SignupModal(props) {
     console.log(regex.test(password));
     try {
       if(regex.test(password)){
-        const res = await axios.post("https://staywave-backend.onrender.com/api/user/register", values);
+        const res = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/register", values);
       if (res.data.success) {
         message.success("Success");
         props.openLogin();

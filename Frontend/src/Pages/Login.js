@@ -21,7 +21,7 @@ const Login = () => {
   const onFinish = async (values) => {
     try {
       // dispatch(showLoading());
-      const res = await axios.post("https://staywave-backend.onrender.com/api/user/login", values);
+      const res = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/login", values);
       // dispatch(hideLoading());
       if (res.data.success) {
         console.log(res.data.userid,res.data.token)

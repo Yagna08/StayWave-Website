@@ -13,7 +13,7 @@ dotenv.config()
 connectDB()
 app.use(cors(
     {
-        origin: ["https://stay-wave-website.vercel.app"],
+        origin: ["https://staywave-website.vercel.app"],
         methods: ["POST", "GET"],
         credentials:true
     }
