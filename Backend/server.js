@@ -13,7 +13,9 @@ dotenv.config()
 connectDB()
 app.use(cors(
     {
-        origin: ['https://stay-wave-website.vercel.app/'],
+        origin: ["https://stay-wave-website.vercel.app"],
+        methods: ["POST", "GET"],
+        credentials:true
     }
 ))
 app.use(express.json())
@@ -21,11 +23,11 @@ app.use(morgan('dev'))
 app.use((req, res) =>{
     res.header('Access-Control-Allow-Origin', 'https://stay-wave-website.vercel.app');
 })
+app.use('/api/user', require('./Routing/userrouting'))
 app.get('/', (req, res) => {
     res.send('Server is Running')
 })
 
-app.use('/api/user',require('./Routing/userrouting'))
 //listening port
 
 app.listen(port,()=>
