@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
     res.send('Server is Running')
 })
 
-app.use('https://staywave-backend.onrender.com/api/user',require('./Routing/userrouting'))
+app.use('/api/user',require('./Routing/userrouting'))
 //listening port
 
 app.listen(port,()=>
