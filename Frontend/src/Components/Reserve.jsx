@@ -20,7 +20,7 @@ const Reserve = () => {
     console.log("hio");
     try {
       const hotelid = param.id;
-      const data = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/detailbooking", { hotelid });
+      const data = await axios.post("https://staywave-backend.onrender.com/api/user/detailbooking", { hotelid });
       console.log(data.data.single);
       setrental(data.data.single);
       setFlag(1);

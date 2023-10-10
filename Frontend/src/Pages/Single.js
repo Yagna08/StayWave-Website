@@ -37,7 +37,7 @@ export const Single = (props) => {
   const getUserData = async (values) => {
     try {
       const res = await axios.post(
-        "https://stay-wave-website-backend.vercel.app/api/user/getUserData",
+        "https://staywave-backend.onrender.com/api/user/getUserData",
         {},
         {
           headers: {
@@ -78,7 +78,7 @@ export const Single = (props) => {
     try {
       let param = par.id;
       console.log(param);
-      const res = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/single", { param });
+      const res = await axios.post("https://staywave-backend.onrender.com/api/user/single", { param });
       if (res.data.success) {
         // console.log(res.data.data);
         console.log(res.data.single);

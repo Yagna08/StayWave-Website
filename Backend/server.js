@@ -5,7 +5,6 @@ const connectDB =require('./Database/db')
 const cors = require('cors')
 const app=express()
 //port
-
 const port= process.env.PORT || 5000
 //config dotenv
 dotenv.config()
@@ -21,16 +20,18 @@ app.use(cors(
 app.use(express.json())
 app.use(morgan('dev'))
 app.use((req, res) =>{
-    res.header('Access-Control-Allow-Origin', 'https://stay-wave-website.vercel.app');
+    res.header('Access-Control-Allow-Origin', 'https://staywave-website.vercel.app');
 })
+
 app.use('/api/user', require('./Routing/userrouting'))
 app.get('/', (req, res) => {
     res.send('Server is Running')
 })
 
 //listening port
+// app.listen(port,()=>
+// {
+//     console.log(`Server running ${process.env.NODE_MODE} on ${process.env.PORT}`)
+// })
 
-app.listen(port,()=>
-{
-    console.log(`Server running ${process.env.NODE_MODE} on ${process.env.PORT}`)
-})
+export default app;
