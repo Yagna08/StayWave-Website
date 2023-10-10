@@ -34,4 +34,4 @@ app.get('/', (req, res) => {
 //     console.log(`Server running ${process.env.NODE_MODE} on ${process.env.PORT}`)
 // })
 
-export default app;
+module.exports = app
