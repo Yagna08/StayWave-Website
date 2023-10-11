@@ -1,36 +1,57 @@
-const express=require('express')
-const morgan=require('morgan')
-const dotenv=require("dotenv")
-const connectDB =require('./Database/db')
+const express = require('express')
+const morgan = require('morgan')
+const dotenv = require("dotenv")
+const connectDB = require('./Database/db')
 const cors = require('cors')
-const app=express()
-//port
+const app = express()
 
-const port= process.env.PORT || 5000
+const { testControl,
+    loginControl,
+    registerControl,
+    homeControl,
+    userControl,
+    IndiControl,
+    addwishlist,
+    getwishlist,
+    getUserWishListData,
+    userBooking,
+    detailBooking
+} = require('./Controllers/userController');
+const { homeAuth } = require('./Middleware/homeAuth');
+
+
+//port
+app.use(cors({
+    origin: "https://staywave-website.vercel.app",
+    credentials: true,
+}));
+const port = process.env.PORT || 5000
 //config dotenv
 dotenv.config()
 // MongoDb
 connectDB()
-app.use(cors(
-    {
-        origin: ["https://staywave-website.vercel.app"],
-        methods: ["POST", "GET"],
-        credentials:true
-    }
-))
+
 app.use(express.json())
 app.use(morgan('dev'))
-app.use((req, res) =>{
-    res.header('Access-Control-Allow-Origin', 'https://stay-wave-website.vercel.app');
-})
-app.use('/api/user', require('./Routing/userrouting'))
+
 app.get('/', (req, res) => {
-    res.send('Server is Running')
-})
+    res.send("Hello")
+});
 
-//listening port
+app.post('/api/user/login', loginControl);
+app.post('/api/user/register', registerControl);
+app.post('/api/user/getUserData', homeAuth, homeControl);
+app.post('/api/user/getData', userControl);
+app.post('/api/user/trial', userControl);
+app.post('/api/user/skips', userControl);
+app.post('/api/user/single', IndiControl);
+app.post('/api/user/addwishlist', addwishlist);
+app.post('/api/user/getwishlist', getwishlist);
+app.post('/api/user/getuserwishlistdata', getUserWishListData);
+app.post('/api/user/detailbooking', detailBooking);
+app.post('/api/user/userbooking', userBooking);
+app.get('/api/user/test', testControl);
 
-app.listen(port,()=>
-{
+app.listen(port, () => {
     console.log(`Server running ${process.env.NODE_MODE} on ${process.env.PORT}`)
 })

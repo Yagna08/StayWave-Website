@@ -63,7 +63,7 @@ const Home = () => {
   const getInitialWishlist = async () => {
     try {
       const userid = localStorage.getItem("userid")
-      let getwishlist = await axios.post('https://stay-wave-website-backend.vercel.app/api/user/getwishlist', { userid })
+      let getwishlist = await axios.post('https://staywave-backend.onrender.com/api/user/getwishlist', { userid })
       console.log(getwishlist.data.wish)
       setWishlist(getwishlist.data.wish)
       console.log('hii')
@@ -83,7 +83,7 @@ const Home = () => {
       }
       console.log(addid);
       console.log(userid);
-      let res = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/addwishlist", { userid, addid });
+      let res = await axios.post("https://staywave-backend.onrender.com/api/user/addwishlist", { userid, addid });
       console.log(res.data.wishlistdata);
       setWishlist(res.data.wishlistdata)
     } catch (err) {
@@ -96,7 +96,7 @@ const Home = () => {
       parameter["type"] = type;
       parameter["skip"] = 0;
       console.log(type);
-      let res = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/trial", parameter);
+      let res = await axios.post("https://staywave-backend.onrender.com/api/user/trial", parameter);
       if (res.data.success) {
         console.log(res.data.mainData);
         setMainData(res.data.mainData);
@@ -133,7 +133,7 @@ const Home = () => {
       console.log(children);
       console.log(adultsQuantity);
       console.log(parameter);
-      let res = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/trial", parameter);
+      let res = await axios.post("https://staywave-backend.onrender.com/api/user/trial", parameter);
       if (res.data.success) {
         console.log(res.data.mainData);
         setMainData(res.data.mainData);
@@ -170,7 +170,7 @@ const Home = () => {
         ];
       }
       console.log(parameter);
-      let res = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/trial", parameter);
+      let res = await axios.post("https://staywave-backend.onrender.com/api/user/trial", parameter);
       // result=await result.json()
       if (res.data.success) {
         // console.log(res.data.data);
@@ -194,7 +194,7 @@ const Home = () => {
       if (parameter["skip"] >= hotels) {
         parameter["skip"] = hotels;
       }
-      let res = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/skips", parameter);
+      let res = await axios.post("https://staywave-backend.onrender.com/api/user/skips", parameter);
       // result=await result.json()
       if (res.data.success) {
         // console.log(res.data.data);
@@ -243,7 +243,7 @@ const Home = () => {
     };
     try {
       const res = await axios.post(
-        "https://stay-wave-website-backend.vercel.app/api/user/getUserData",
+        "https://staywave-backend.onrender.com/api/user/getUserData",
         {},
         {
           headers: {
@@ -263,7 +263,7 @@ const Home = () => {
     }
     console.log(parameter);
     try {
-      const res = await axios.post("https://stay-wave-website-backend.vercel.app/api/user/getData", parameter);
+      const res = await axios.post("https://staywave-backend.onrender.com/api/user/getData", parameter);
       if (res.data.success) {
         // console.log(res.data.data);
         // console.log(dot)
