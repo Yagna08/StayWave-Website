@@ -2,21 +2,21 @@ const userModel = require("../Models/usermodel");
 const Data = require("../Models/groupmodel");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
-const destination =require("../cities.json")
+const destination = require("../cities.json")
 let types = "farms";
 
 const loginControl = async (req, res) => {
   try {
     const user = await userModel.findOne({ email: req.body.email });
-    const userid= user._id
+    const userid = user._id
     console.log(userid)
-    
+
     if (!user) {
       return res
         .status(200)
         .send({ message: "User Not Found", success: false });
     }
-   
+
     const matchPass = await bcrypt.compare(req.body.password, user.password);
     console.log(req.body.password)
 
@@ -37,7 +37,7 @@ const loginControl = async (req, res) => {
   }
 };
 const registerControl = async (req, res) => {
- 
+
 
   try {
     const existingUser = await userModel.findOne({ email: req.body.email });
@@ -47,15 +47,15 @@ const registerControl = async (req, res) => {
         .send({ message: `User Already Exist`, success: false });
     }
     const password = req.body.password;
-    
+
     const salt = await bcrypt.genSalt(10);
     const hashPassword = await bcrypt.hash(password, salt);
     req.body.password = hashPassword;
     const newUser = new userModel(req.body);
     await newUser.save();
     res.status(201).send({ message: "Register Success", success: true });
-    }
-   catch (error) {
+  }
+  catch (error) {
     console.log(error);
     res.status(500).send({ message: `${error.message}`, success: false });
   }
@@ -87,9 +87,22 @@ const homeControl = async (req, res) => {
   }
 };
 let hotels = [];
+
+const testControl = async (req, res) => {
+  try {
+    const data = await Data.find().limit(5);
+    console.log(data);
+    res.status(200).json(data);
+  }
+  catch (error) {
+    console.log(error);
+    res.status(404).json({ error: error.message });
+  }
+};
+
 const userControl = async (req, res) => {
   try {
-    const { type, skip, min, max, beds, bedrooms, bathrooms, amenities, searchMap, searchDestination, checkIn, checkOut,adults,childrens,infants } =
+    const { type, skip, min, max, beds, bedrooms, bathrooms, amenities, searchMap, searchDestination, checkIn, checkOut, adults, childrens, infants } =
       req.body;
     types = type ? type : "farms";
     // console.log(skip);
@@ -113,7 +126,7 @@ const userControl = async (req, res) => {
       'eastIndia': ['Arunachal Pradesh', 'Assam', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha', 'Sikkim', 'Tripura', 'West Bengal']
     };
     // console.log(searchDict[searchMap])
-    let TotalGuest=parseInt(adults+childrens)
+    let TotalGuest = parseInt(adults + childrens)
     // console.log(TotalGuest)
     let mainData = await Data.find({
       $and: [
@@ -131,13 +144,13 @@ const userControl = async (req, res) => {
             },
           },
         },
-        { numberOfGuests: ( TotalGuest===0)?{$gt:0, $lt:20}:TotalGuest},
-        {"guestControls.allowsInfants": infants==0? {$in:[true,false]}:true},
-        {"guestControls.allowsChildren": childrens==0? {$in:[true,false]}:true}
+        { numberOfGuests: (TotalGuest === 0) ? { $gt: 0, $lt: 20 } : TotalGuest },
+        { "guestControls.allowsInfants": infants == 0 ? { $in: [true, false] } : true },
+        { "guestControls.allowsChildren": childrens == 0 ? { $in: [true, false] } : true }
       ],
       $or: [
         { state: ((searchMap == '' || searchMap == 'indiaMap') && searchDestination == '') ? destination : (searchDestination != '') ? searchDestination : { $in: searchDict[searchMap] } },
-        { state: (searchDestination == '' && searchMap == '') ? destination :  (searchDestination == '') ? { $in: searchDict[searchMap] } : { $regex: new RegExp(searchDestination), $options: 'i' } },
+        { state: (searchDestination == '' && searchMap == '') ? destination : (searchDestination == '') ? { $in: searchDict[searchMap] } : { $regex: new RegExp(searchDestination), $options: 'i' } },
         { city: (searchDestination == '' && searchMap == '') ? destination : (searchDestination == '') ? { $in: searchDict[searchMap] } : { $regex: new RegExp(searchDestination), $options: 'i' } },
         { name: (searchDestination == '' && searchMap == '') ? destination : (searchDestination == '') ? { $in: searchDict[searchMap] } : { $regex: new RegExp(searchDestination), $options: 'i' } },
       ]
@@ -158,18 +171,20 @@ const userControl = async (req, res) => {
             },
           },
         },
-        { numberOfGuests: TotalGuest===0?{$gt:0, $lt:20}:TotalGuest},
-        {"guestControls.allowsInfants": infants==0? {$in:[true,false]}:true},
-        {"guestControls.allowsChildren": childrens==0? {$in:[true,false]}:true}
+        { numberOfGuests: TotalGuest === 0 ? { $gt: 0, $lt: 20 } : TotalGuest },
+        { "guestControls.allowsInfants": infants == 0 ? { $in: [true, false] } : true },
+        { "guestControls.allowsChildren": childrens == 0 ? { $in: [true, false] } : true }
       ],
-      
+
       $or: [
-        { state: ((searchMap == '' || searchMap == 'indiaMap')&& searchDestination=='') ? destination : (searchDestination!='')?searchDestination:{ $in: searchDict[searchMap] } },
+        { state: ((searchMap == '' || searchMap == 'indiaMap') && searchDestination == '') ? destination : (searchDestination != '') ? searchDestination : { $in: searchDict[searchMap] } },
         { state: (searchDestination == '' && searchMap == '') ? destination : (searchDestination == '') ? { $in: searchDict[searchMap] } : { $regex: new RegExp(searchDestination), $options: 'i' } },
         { city: (searchDestination == '' && searchMap == '') ? destination : (searchDestination == '') ? { $in: searchDict[searchMap] } : { $regex: new RegExp(searchDestination), $options: 'i' } },
         { name: (searchDestination == '' && searchMap == '') ? destination : (searchDestination == '') ? { $in: searchDict[searchMap] } : { $regex: new RegExp(searchDestination), $options: 'i' } },
       ]
     }).count();
+
+
 
     res.status(200).json({
       message: "Register Success",
@@ -196,11 +211,11 @@ const IndiControl = async (req, res) => {
     single: single,
   });
 };
-const addwishlist= async (req,res)=>{
+const addwishlist = async (req, res) => {
   try {
     // const addlist=[]
-    let flag=false
-    const { addid,userid } = await req.body;
+    let flag = false
+    const { addid, userid } = await req.body;
     console.log(addid);
     console.log(userid);
     const userwishlist = await userModel.find({ _id: userid })
@@ -208,105 +223,104 @@ const addwishlist= async (req,res)=>{
     // if (userwishlist !== null) {
     //   console.log('yeah boy')
     //   if (userwishlist.wishlist === addid) {
-        // const movieid = userwishlist.wishlist;
-        // console.log('hey Baby')
-        // const removeMovie = await userModel.deleteOne({ id: movieid });
-        // console.log(removeMovie);
-      
-      // res.status(201).json({ removedmovie: "Movie removed successfully" });
-    // } else {
-      let addlist=userwishlist[0].wishlist
-      console.log(userwishlist[0].wishlist)
-      for (var i of addlist)
-      { 
-        if(i===addid)
-        {
-          flag=true
-          console.log('true')
-        }
-      }
-      if(flag)
-      {
-        const newadd = await userModel.findOneAndUpdate(
-          { _id: userid },
-          { $pull: { wishlist:addid } },{new: true}
-       )
-        console.log(newadd.wishlist)
-        wishlistdata=newadd.wishlist
-        res
-        .status(200)
-        .json({ message: "Movie added successfully.",wishlistdata});
-      }
-      else{
-        console.log(addid)
-        const newadd = await userModel.findOneAndUpdate({_id: userid},{$push:{
-          wishlist:addid
-        }},{new: true})
-        console.log(newadd.wishlist)
-        wishlistdata=newadd.wishlist
-        res
-        .status(200)
-        .json({ message: "Movie added successfully.",wishlistdata});
-      }
+    // const movieid = userwishlist.wishlist;
+    // console.log('hey Baby')
+    // const removeMovie = await userModel.deleteOne({ id: movieid });
+    // console.log(removeMovie);
 
-  
+    // res.status(201).json({ removedmovie: "Movie removed successfully" });
+    // } else {
+    let addlist = userwishlist[0].wishlist
+    console.log(userwishlist[0].wishlist)
+    for (var i of addlist) {
+      if (i === addid) {
+        flag = true
+        console.log('true')
+      }
+    }
+    if (flag) {
+      const newadd = await userModel.findOneAndUpdate(
+        { _id: userid },
+        { $pull: { wishlist: addid } }, { new: true }
+      )
+      console.log(newadd.wishlist)
+      wishlistdata = newadd.wishlist
+      res
+        .status(200)
+        .json({ message: "Movie added successfully.", wishlistdata });
+    }
+    else {
+      console.log(addid)
+      const newadd = await userModel.findOneAndUpdate({ _id: userid }, {
+        $push: {
+          wishlist: addid
+        }
+      }, { new: true })
+      console.log(newadd.wishlist)
+      wishlistdata = newadd.wishlist
+      res
+        .status(200)
+        .json({ message: "Movie added successfully.", wishlistdata });
+    }
+
+
   } catch (error) {
     console.log(error)
     res.status(500).json({ error: "An error occurred in adding movie" });
   }
 }
-const getwishlist= async(req,res)=>{
+const getwishlist = async (req, res) => {
   try {
     const { userid } = req.body;
     console.log(userid)
-    if (userid){
-    const wishlist = await userModel.find({_id:userid},{wishlist:1,_id:0})
-    // console.log(wishlist[0].wishlist);
-    const wish=wishlist[0].wishlist
-    // console.log(wish)
-    // console.log('hi')
-    if (wish.length === 0) {
-      console.log("no initial data");
-      res.json({ wish: [] });
-    } else {
-      
-      res.json({
-        message: "got data successfully",
-        wish: wish,
-      });
+    if (userid) {
+      const wishlist = await userModel.find({ _id: userid }, { wishlist: 1, _id: 0 })
+      // console.log(wishlist[0].wishlist);
+      const wish = wishlist[0].wishlist
+      // console.log(wish)
+      // console.log('hi')
+      if (wish.length === 0) {
+        console.log("no initial data");
+        res.json({ wish: [] });
+      } else {
+
+        res.json({
+          message: "got data successfully",
+          wish: wish,
+        });
+      }
     }
-  }
-  else{
-    res.status(200).json({wish:[]})
-  }
-} catch (error) {
+    else {
+      res.status(200).json({ wish: [] })
+    }
+  } catch (error) {
     res.status(500).json({ error: "An error occurred." });
   }
 }
 
-const getUserWishListData=async(req,res)=>{
-  try{
-  const {userid}=req.body
-  const getuserwishlistdata = await userModel.find({_id:userid})
-  console.log(getuserwishlistdata[0].wishlist)
-  const allwishlist=getuserwishlistdata[0].wishlist
-  const getdatawishlist=await Data.find({id:{$in:allwishlist}})
-  const length=await Data.find({id:{$in:allwishlist}}).count()
-  console.log(getdatawishlist)
-  res.status(200).json({
-    message: "Register Success",
-    success: true,
-    getdatawishlist: getdatawishlist,
-    length:length
-  });
-} catch (error) {
-  console.log(error);
-  res
-    .status(500)
-    .send({ message: `Authorization Error`, success: false, error });
+const getUserWishListData = async (req, res) => {
+  try {
+    const { userid } = req.body
+    const getuserwishlistdata = await userModel.find({ _id: userid })
+    console.log(getuserwishlistdata[0].wishlist)
+    const allwishlist = getuserwishlistdata[0].wishlist
+    const getdatawishlist = await Data.find({ id: { $in: allwishlist } })
+    const length = await Data.find({ id: { $in: allwishlist } }).count()
+    console.log(getdatawishlist)
+    res.status(200).json({
+      message: "Register Success",
+      success: true,
+      getdatawishlist: getdatawishlist,
+      length: length
+    });
+  } catch (error) {
+    console.log(error);
+    res
+      .status(500)
+      .send({ message: `Authorization Error`, success: false, error });
+  }
 }
-}
-const detailBooking=async(req,res)=>{
+const detailBooking = async (req, res) => {
   const { hotelid } = req.body;
   let params = hotelid;
   console.log(hotelid)
@@ -318,10 +332,11 @@ const detailBooking=async(req,res)=>{
     single: single,
   });
 }
-const userBooking=async()=>{
-  
+const userBooking = async () => {
+
 }
 module.exports = {
+  testControl,
   loginControl,
   registerControl,
   homeControl,
