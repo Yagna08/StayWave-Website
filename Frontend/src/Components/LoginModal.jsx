@@ -12,7 +12,7 @@ export default function LoginModal(props) {
     const onFinish = async (values) => {
       try {
        
-          const res = await axios.get("/api/user/login", values);
+          const res = await axios.get("https://staywave-backend.onrender.com/api/user/login", values);
     
         if (res.data.success) {
           localStorage.setItem("token", res.data.token);
